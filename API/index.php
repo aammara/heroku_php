@@ -14,5 +14,10 @@
      {
   	    return "Goodbye, " . $name;
      }
+     
+     public static function turnOn($name)
+     {
+  	    return $name . " is ON now";
+     }
   }
 ?>
