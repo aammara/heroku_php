@@ -7,7 +7,12 @@
   {
      public static function sayHello($name)
      {
-  	return "Hello, " . $name;
+  	    return "Hello, " . $name;
+     }
+     
+     public static function sayGoodBye($name)
+     {
+  	    return "Goodbye, " . $name;
      }
   }
 ?>
